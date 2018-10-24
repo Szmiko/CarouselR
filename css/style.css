@@ -1,0 +1,37 @@
+* {
+	box-sizing: border-box
+}
+
+body {
+	background: gray;
+	margin: 0 auto;
+	padding: 2px;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+.container ul {
+	list-style: none;
+	width: 2000px;
+}
+
+.container ul li {
+	width: 400px;
+	height: 300px;
+	margin: 0 auto;
+	text-align: center;
+	border: 2px solid black;
+	background: white;
+	padding: 1px;
+	list-style: none;
+	float: left;
+	position: absolute;
+}
+
+.container img {
+	width: 400px;
+	height: 300px;
+	object-fit: cover;
+}
